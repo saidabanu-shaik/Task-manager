@@ -1,0 +1,203 @@
+body {
+  /* font-family: Arial, sans-serif; */
+  background-color: #fbf7f7;
+  margin: 0;
+  padding: 20px;
+  border: #b55fb8;
+  background: url("https://e1.pxfuel.com/desktop-wallpaper/168/962/desktop-wallpaper-this-beautiful-powerpoint-template-is-another-good-template-for-plain-pp-backgrounds.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: center;
+}
+
+
+#main-h {
+  /* text-align: center; */
+  text-align: center;
+  color: #e01c23;
+}
+#todo-cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.task {
+  background-color: #fcf7f7;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out 3;
+  /* transition: all 0.5s steps(5); */
+  
+}
+.task:hover {
+  transform: scale(1.02);
+  /* transform: rotatez(270deg); */
+
+}
+
+
+
+
+.high { background-color: #32a5bc; }   
+.medium { background-color: #f196f4; } 
+.low { background-color: #f5af79; }     
+.urgent { border: 5px solid red; }      
+.completed { text-decoration: line-through; color: grey; border: 5px solid #28a745;}
+h1 { color: #333; }
+input {
+  margin-right: 10px;
+  padding: 5px;
+}
+button {
+  padding: 5px 10px;
+}
+
+#todo-cont, #completed-cont {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 50px;
+  /* flex: 1;
+  max-width: 700px; */
+}
+/* #task-container { */
+  /* display: flex;               Use flexbox for side-by-side layout */
+  /* justify-content: space-between; Space between the two sections */
+  /* gap: 10px;                  Space between columns */
+  /* margin-top: 10px;          Margin at the top */
+/* } */
+
+
+h2 {
+  margin-top: 30px;
+  text-align: center;
+  color: #05828e;
+}
+button {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #218838;
+ 
+}
+
+
+input, select, button {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+#input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  /* border: 2px solid black; */
+}
+
+
+
+
+
+
+/* body {
+  /* font-family: Arial, sans-serif; */
+  /* background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+#main-h {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+} */
+
+/* #todo-cont, #completed-cont {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  /* align-items: center; 
+}
+
+#todo-cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px; */
+/* } */ 
+/* .task {
+  width: 80%; /* Set a width for consistency */
+  /* max-width: 500px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  transition: transform 0.2s;
+}
+
+.task:hover {
+  transform: scale(1.02);
+}
+
+
+.high { background-color: #32a5bc; }   /* Red */
+/* .medium { background-color: #b55fb8; } /* Yellow */
+/* .low { background-color: #a89e31; }     /* Green */
+/* .urgent { border: 2px solid red; }      Urgent tasks */ 
+/* .completed { text-decoration: line-through; color: grey; background-color: lightgreen;} */
+/* h1 { color: #333; }
+input {
+  margin-right: 10px;
+  padding: 5px;
+}
+input, select {
+  margin: 5px 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px; */
+/* ; Light green for completed tasks} */
+/* button {
+  padding: 5px 10px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s; */
+/* } */
+/* #input-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#input-container input,
+#input-container select,
+#input-container button {
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.completed {
+  background-color: #c8e6c9
+} */
+
+/* .pending {
+  background-color: #ffffff; White for pending tasks */
+
+
+/* Optional: Add a header for each section */
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>To Do App</title>
+  <link rel="icon" type="image/x-icon" href="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/19/04/fe/1904fe62-f11c-82f5-3320-e4d6ef6bbb20/AppIcon-0-1x_U007epad-0-85-220-0.png/512x512bb.jpg">
+  
+</head>
+<body>
+  <h1 id="main-h">Todo App</h1>
+  <div id="input-container">
+  <input id="todo-in" type="text" placeholder="Enter Todo here" required>
+  <input id="todo-desc" type="text" placeholder="Task Description">
+  <input id="todo-date" type="date" required>
+  <input id="todo-time" type="time" required>
+  <select id="todo-priority">
+    <option value="low">Low</option>
+    <option value="medium">Medium</option>
+    <option value="high">High</option>
+    <option value="high">urgent</option>
+  </select>
+  <select id="todo-category">
+    <option value="work">Work</option>
+    <option value="personal">Personal</option>
+  </select>
+  <button onclick="addTodo();">Add</button></div>
+
+  <div id="task-container">
+  <div>
+  <h2>💔 pending tasks</h2>
+  <div id="todo-cont"></div>
+  </div>
+  <div>
+  <h2>❤️ Completed Tasks</h2>
+  <div id="completed-cont"></div></div>
+  </div>
+
+   
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
